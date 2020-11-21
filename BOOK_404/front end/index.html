@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book 404</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+        function fun() {
+            var z;
+            z = document.getElementById("message3").value;
+            if (z == "") {
+                alert("Please enter a valid name of the book ");
+                return false;
+            }
+            else if (z == "Harry Potter") {
+                window.open(
+                    '1.html',
+
+                );
+            }
+            else if (z == "Treasure Island") {
+                window.open(
+                    '2.html',
+
+                );
+            }
+            
+
+
+
+
+
+            document.getElementById('message3').value = '';
+            
+
+        };
+
+    </script>
+
+
+
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/mystyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<title>Curriculum Vitae</title>
+
+<body data-spy="scroll" data-target=".navbar">
+
+
+
+    <div id="bg-img">
+
+    </div>
+
+    <div id="logo">
+        <img src="logo.gif">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <h2 id="about">About Book 404</h2>
+                <hr class="bg-danger">
+                <div data-aos="fade-left" data-aos-once="true" data-aos-duration="1500">
+                    <p class="lead text-justify s" style="color: beige;" id="Skill">
+                        Ever felt void after reading a good book? Can’t find anything to read after?
+Spent hours searching for a similar read but still could not find it? <br>
+
+Worry not “Book 404” is here to help you out the void, find a good book to read in an efficient and simple manner.
+
+Your book will indefinitely be found!
+ 
+“Book 404” brings to you a single platform which helps you find your perfect next read by asking you for your good read. It gives you instant recommendations based on your previous good read.
+ </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section class="mb-4">
+
+
+        <h2 class="h1-responsive font-weight-bold text-center my-4 text-w" id="ContactMe">Enter the name of the book you
+            have read</h2>
+
+        <br>
+        <br>
+        <br>
+        <div class="row">
+
+            <div class="col-sm-4">
+                <div class="md-form mb-0" id="MarginContact2">
+
+
+                    <input type="text" id="message3" name="name" class="form-control" placeholder="Book Name">
+
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+
+            <div class=" row">
+
+
+
+
+                </form>
+
+
+                <br>
+
+
+
+                <button type="button" class="btn btn-success" onclick="fun()" id="button1">Submit</button>
+            </div>
+
+
+
+
+
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <div class="loader-wrapper">
+        <span class="loader">
+            <span class="loader-inner"></span>
+        </span>
+    </div>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut(2000);
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
